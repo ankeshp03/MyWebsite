@@ -2019,3 +2019,7 @@ footer.page-footer {
 .btn:hover {
   background-color: #533F74;
 }
+
+html {
+  color: grey !important;
+}
