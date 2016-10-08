@@ -2008,18 +2008,37 @@ footer.page-footer {
 
 
 /* My styles*/
+
+/* For the translucent card */
 .translucent {
   background-color: rgba(63,63,63,0.3);
 }
 
+/* To set the color of the checkbox in login page (remember me) */
 [type="checkbox"] +label:before {
   border-color: grey;
 }
 
+/* Change the color of the button on hover from blue to custom color */
 .btn:hover {
   background-color: #533F74;
 }
 
+/* To change the color of the icons (perm_identity and lock_outline) */
 html {
   color: grey !important;
+}
+
+/* To set the icons one line below, i.e. inline with the textboxes */
+.material-icons {
+  line-height: 2;
+}
+
+/* To set the autocomplete placeholder color from pale yellow to transparent, and the text color from black to white */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
 }
